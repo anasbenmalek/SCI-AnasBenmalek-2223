@@ -64,11 +64,3 @@ FV : de waarde van een aanwinst naar een toekomstige datum, rekening houdend met
 
 fv = npf.fv(interestrate,time, -50000,100000)
 print("de future value is €%3.4f"%fv)
-
-# gebruik van Matplotlib
-y = [npf.fv(interestrate,i,-50000,100000) for i in range(4)]
-print([npf.fv(interestrate,i,-50000,100000) for i in range(4)])
-plt.plot(y)
-plt.ylabel("Investment Value")
-plt.xlabel ("Years " )
-plt.show()

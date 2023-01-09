@@ -1,5 +1,4 @@
 import numpy_financial as npf
-import matplotlib.pyplot as plt
 
 
 """
